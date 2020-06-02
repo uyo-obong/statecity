@@ -16,5 +16,12 @@
         "psr-4": {
             "Uyoobonga\\StateCity\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uyoobonga\\StateCity\\StateCityServiceProvider"
+            ]
+        }
     }
 }
