@@ -52,6 +52,11 @@ php artisan migrate
 php artisan db:seed --class=Uyoobonga\\StateCity\\database\\seeds\\StateCityTableSeeder
 ```
 
+-Note: if you want to have access to the view, use the syntax below to publish it.
+
+```php
+ php artisan vendor:publish --tag=statecity-views
+```
 ## Usage
 
  Include any of the blade syntax.
@@ -60,7 +65,6 @@ php artisan db:seed --class=Uyoobonga\\StateCity\\database\\seeds\\StateCityTabl
 
 ```
 @include('statecity::double_row_select')
-
 ```
 
 - Single row
