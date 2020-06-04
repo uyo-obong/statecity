@@ -16,6 +16,10 @@ class StateCityServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__. '/routes/web.php');
         $this->loadViewsFrom(__DIR__. '/views', 'statecity');
         $this->loadMigrationsFrom(__DIR__. '/database/migrations');
+
+        $this->publishes([
+            __DIR__.'/views' => resource_path('views/vendor/statecity'),
+        ], 'statecity-views');
     }
 
     /**
