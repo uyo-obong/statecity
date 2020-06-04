@@ -8,10 +8,9 @@
 
 ## Requirements 
 
-| | Laravel Version | Php Version | |
-|---- |----|----|----|
-|  
-|  | ^7.0|^7.0 |    
+PHP ^7.0
+
+Laravel ^7.0
 
 ### Reference elements
 
@@ -55,7 +54,7 @@ php artisan db:seed --class=Uyoobonga\\StateCity\\database\\seeds\\StateCityTabl
 
 ## Usage
 
- Include any of the blade syntax in a location you want in your blade template.
+ Include any of the blade syntax.
 
 - Double row 
 
