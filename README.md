@@ -78,13 +78,14 @@ php artisan db:seed --class=Uyoobonga\\StateCity\\database\\seeds\\StateCityTabl
 - Symfony support
 - Django support
 - vuejs support
+- Test! Test!! Test!!!
 
 ## Contributions
 
 If you want to contribute to this library, fork the repo and submit your PR. 
 - Issue and PR are welcome. 
 
-## Contributors
+## Author
 
 - [Uyo-obong](https://github.com/uyo-obong/)
 
